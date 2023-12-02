@@ -111,6 +111,10 @@ const HadiahPopUp = ({ showPopUp, setShowPopUp }: HadiahPopUpProps) => {
                   pesanHadiah || "Tidak ada pesan yang disampaikan"
                 }._%2A%20Terima%20Kasih.`;
 
+                if (typeof window === "undefined") {
+                  return null; // Or handle the case when window is not available
+                }
+
                 window.open(url, "_blank")?.focus();
                 e.preventDefault();
               }}

@@ -19,7 +19,7 @@ type InvitationProps = {
 
 export default function Invitation({ isHidden }: InvitationProps) {
   const [isPlay, setIsPlay] = useState(true);
-  const audioRef = useRef(new window.Audio("/bgmusic.mp3")); // Use window.Audio
+  const audioRef = useRef(new Audio("/bgmusic.mp3")); // Use window.Audio
 
   useEffect(() => {
     const audio = audioRef.current;
