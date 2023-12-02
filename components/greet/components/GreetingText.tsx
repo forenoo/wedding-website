@@ -15,12 +15,11 @@ export default function GreetingText({
   isHidden,
   setIsHidden,
 }: GreetingTextProps) {
-  if (typeof window === "undefined") {
-    return null; // Or handle the case when window is not available
+  let guest;
+  if (typeof window !== "undefined") {
+    const urlParams = new URLSearchParams(window.location.search);
+    guest = urlParams.get("to");
   }
-
-  const urlParams = new URLSearchParams(window.location.search);
-  const guest = urlParams.get("to");
 
   return (
     <div
