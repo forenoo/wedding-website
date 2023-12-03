@@ -41,6 +41,7 @@ export default function GreetingText({
           height={200}
           alt="kembang"
           src="/kembang.png"
+          priority={true}
           className="sm:w-[300px]"
         />
       </motion.div>

@@ -10,7 +10,7 @@ const InvitationContent = () => {
         initial={{ x: 200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 3.25, ease: "easeInOut" }}
-        className="text-center text-3xl text-primary-500"
+        className="text-center text-3xl text-primary-500 xl:text-4xl"
       >
         The Wedding Of
       </motion.h1>
@@ -24,7 +24,8 @@ const InvitationContent = () => {
           width={350}
           height={350}
           alt="photo"
-          className="max-w-[350px] rounded-full"
+          priority={true}
+          className="my-5 w-[250px] max-w-[350px] rounded-full md:w-[350px]"
         />
       </motion.div>
       <motion.h1

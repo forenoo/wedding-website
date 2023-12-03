@@ -44,7 +44,7 @@ const Hadiah = () => {
         {cardData.map((card, index) => (
           <div
             key={index}
-            className="mx-auto mt-[3rem] h-auto w-[80%] rounded-xl p-3 shadow-lg xl:w-[60%]"
+            className="mx-auto mt-[3rem] h-auto w-[80%] rounded-xl bg-gray-50 p-3 py-10 shadow-lg xl:w-[60%]"
           >
             <Image
               src={card.bankLogo}

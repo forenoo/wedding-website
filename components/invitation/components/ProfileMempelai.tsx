@@ -132,13 +132,14 @@ const ProfileMempelai = () => {
           variants={profileAnimation}
           initial="hidden"
           animate={shendyControls}
+          className="relative"
         >
           <Image
             src="/shendysendiri.webp"
             width={250}
             height={250}
             alt="profile-wanita"
-            className="mx-auto w-[250px] rounded-full border-2 border-primary-600"
+            className="mx-auto w-[250px]"
           />
         </motion.div>
         <div className="my-[2rem] h-[2px] w-full bg-gray-200"></div>
@@ -201,7 +202,7 @@ const ProfileMempelai = () => {
               width={250}
               height={250}
               alt="profile-wanita"
-              className="mx-auto w-[250px] rounded-full border-2 border-primary-600"
+              className="mx-auto w-[250px]"
             />
           </motion.div>
           <div className="my-[2rem] h-[2px] w-full bg-gray-200"></div>
