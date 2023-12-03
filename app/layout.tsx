@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "The Wedding Of Shendy & Oky",
   description: `Hello you are invited to the wedding of Shendy & Oky. Open to see the invitation.`,
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
     images: [
       {
