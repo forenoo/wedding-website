@@ -15,7 +15,7 @@ const HadiahPopUp = ({ showPopUp, setShowPopUp }: HadiahPopUpProps) => {
 
   return (
     <div
-      className={`${cormorant.className} fixed inset-0 flex h-screen w-screen items-center justify-center bg-black bg-opacity-50 md:px-[8%]`}
+      className={`${cormorant.className} fixed inset-0 z-[999] flex h-screen w-screen items-center justify-center bg-black bg-opacity-50 md:px-[8%]`}
     >
       <div className="relative h-[auto] w-full max-w-[700px] bg-white p-[20px]">
         <button
