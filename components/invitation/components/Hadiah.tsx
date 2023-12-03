@@ -87,6 +87,13 @@ const Hadiah = () => {
             </div>
           </div>
         ))}
+        <p className={`${inter.className} mt-6 text-center text-[14px]`}>
+          KIRIM HADIAH FISIK
+        </p>
+        <div className="mx-auto my-5 h-[1px] w-[40%] bg-black opacity-20"></div>
+        <p className={`${inter.className} mt-6 text-center text-[14px]`}>
+          Jl. Ranugrati III, No. 21 RT/RW 001/001 Sawojajar Kota Malang
+        </p>
         <p
           onClick={() => setShowPopUpHadiah(!showPopUpHadiah)}
           className={`${inter.style} mt-[5rem] cursor-pointer text-center text-[14px] font-semibold italic text-primary-950 underline`}
