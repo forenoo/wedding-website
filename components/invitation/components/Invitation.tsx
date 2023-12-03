@@ -113,7 +113,7 @@ export default function Invitation({ isHidden }: InvitationProps) {
               priority={true}
               src="/blueflower.png"
             />
-            <div className={`${cormorant.className} z-[999]`}>
+            <div className={`${cormorant.className} z-[20]`}>
               <h1 className="text-center text-3xl text-primary-500 xl:text-4xl">
                 The Wedding Of
               </h1>
