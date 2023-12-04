@@ -14,6 +14,7 @@ import Konfirmasihadir from "./Konfirmasihadir";
 import Hadiah from "./Hadiah";
 import Image from "next/image";
 import Watermark from "./Watermark";
+import Comment from "./Comment";
 
 type InvitationProps = {
   isHidden: boolean;
@@ -88,6 +89,7 @@ export default function Invitation({ isHidden }: InvitationProps) {
           <Galery />
           <SaveThedate targetDate={targetDate} />
           <LoveStory />
+          <Comment />
           <Konfirmasihadir />
           <Hadiah />
           <motion.section
