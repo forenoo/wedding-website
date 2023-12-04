@@ -9,7 +9,7 @@ const Watermark = () => {
         <h1
           className={`${inter.className} text-center text-[16px] uppercase tracking-[0.7em]`}
         >
-          create with love by
+          created with love by
         </h1>
         <div>
           <Image
