@@ -18,7 +18,7 @@ const AddComment = ({ refresh, setRefresh }: AddCommentProps) => {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:3000/api/comments", {
+      const res = await fetch("https://www.shendyoky.me/api/comments", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -9,7 +9,7 @@ interface ListCommentProps {
 
 const getCommentList = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/comments", {
+    const res = await fetch("https://www.shendyoky.me/api/comments", {
       cache: "no-store",
     });
 
